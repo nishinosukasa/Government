@@ -63,12 +63,11 @@ echo -e $red " 7) Com_fabrik exploiter "
 echo -e $white " 8) lokomedia exploiter "
 echo -e $red " 9) Dirbuster "
 echo -e $white " 10) ZoneH "
-echo -e $red " Government Ddos "
-echo -e $white " 11) LITEDDOS "
-echo -e $red " 12) Torshammer "
-echo -e $white " 13) kawai-botnet "
-echo -e $red " 14) Xerxes "
-echo -e $white " 15) BlueBook "
+echo -e $red " 11) webdav "
+echo -e $white " 12) Brutesploit "
+echo -e $red " 13) XSStrike "
+echo -e $white " 14) OpenDoor "
+echo -e $red " 15) Drupalgeddon2 "
 echo -e $white " 0) Government Exit "
 read -p "Onepiece@Government ~#" bro
 
@@ -127,7 +126,7 @@ apt install git
 pip2 install mechanize
 pip2 install request
 git clone https://github.com/4L13199/LITESCRIPT.git
-mv Hash-Buster/ $HOME
+mv LITESCRIPT/ $HOME
 echo -e $red " Done Sudah Terinstall Stah "
 echo -e $white " Notice : Tools Ini Bekerja Buat Bikin Script Deface "
 fi
@@ -160,7 +159,7 @@ apt update && apt upgrade
 apt install perl
 apt install git
 git clone https://github.com/rezasp/joomscan.git
-mv D-TECT/ $HOME 
+mv joomscan/ $HOME 
 echo -e $red " Done Sudah Terinstall Stah "
 fi
 
@@ -225,7 +224,7 @@ apt install php
 apt install wget
 mkdir Zone-H
 cd Zone-H
-wget https://pastebin.com/raw/zNhnyLYL php ZoneH.php
+wget https://pastebin.com/raw/zNhnyLYL -o ZoneH.php
 cd 
 mv Zone-H/ $HOME
 echo -e $red " Done Sudah Terinstall Stah "
@@ -236,72 +235,83 @@ fi
 if [ $bro = 11 ] || [ $bro = 11 ]
 then
 clear
-echo " installing LITEDDOS "
+echo " installing wedav "
 sleep 1
 toilet -f standard --gay "Siwanna"
 apt update && apt upgrade
-apt install git
+apt install openssl curl
+pkg install libcurl
 apt install python2
-git clone https://github.com/4L13199/LITEDDOS.git
-mv LITEDDOS/ $HOME
+pip2 install urllib3 chardet certifi idna requests
+mkdir webdav
+cd ~/webdav
+wget https://pastebin.com/raw/HnVyQPtR -O webdav.py
+chmod 777 webdav.py
+cd ~/
+mv webdav/ $HOME
 echo -e $red " Done Sudah Terinstall Stah "
 fi
 
 if [ $bro = 12 ] || [ $bro = 12 ]
 then
 clear
-echo " installing Torshammer "
+echo " installing Brutesploit "
 sleep 1
 toilet -f standard --gay "Siwanna"
 apt update && apt upgrade
 apt install git
-apt install python2
-apt install python
-git clone https://github.com/cyweb/hammer.git
-mv hammer/ $HOME
+git clone https://github.com/Screetsec/Brutesploit.git
+cd Brutesploit
+chmod +x Brutesploit
+cd
+mv Brutesploit/ $HOME
 echo -e $red " Done Sudah Terinstall Stah "
 fi
 
 if [ $bro = 13 ] || [ $bro = 13 ]
 then
 clear
-echo " installing kawai-botnet "
+echo " installing XSStrike "
 sleep 1
 toilet -f standard --gay "Siwanna"
 apt update && apt upgrade
 apt install git
-apt install php
-git clone https://github.com/Cvar1984/Kawai-Botnet.git
-mv kawai-botnet/ $HOME
+git clone https://github.com/UltimateHackers/XSStrike
+cd XSStrike
+pip2 install -r requirements.txt
+cd
+mv XSStrike/ $HOME
 echo -e $red " Done Sudah Terinstall Stah "
 fi
 
 if [ $bro = 14 ] || [ $bro = 14 ]
 then
 clear
-echo " installing Xerxes "
+echo " installing OpenDoor "
 sleep 1
 toilet -f standard --gay "Siwanna"
 apt update && apt upgrade
-apt install clang
+apt install python
 apt install git
-git clone https://github.com/zanyarjamal/xerxes.git
-mv xerxes/ $HOME
+git clone https://github.com/stanislav-web/OpenDoor.git
+cd OpenDoor
+pip install -r requirements.txt
+cd
+mv OpenDoor/ $HOME
 echo -e $red " Done Sudah Terinstall Stah "
 fi
 
 if [ $bro = 15 ] || [ $bro = 15 ]
 then
 clear
-echo " installing BlueBook "
+echo " installing DRUPAL RCE "
 sleep 1
 toilet -f standard --gay "Siwanna"
 apt update && apt upgrade
 apt install git
-apt install python2
-pip2 install request
-git clone https://github/PhobiaXploit/BlueBook.git
-mv BlueBook/ $HOME
+apt install ruby
+git clone https://github.com/dreadlocked/Drupalgeddon2
+mv Drupalgeddon2/ $HOME
 echo -e $red " Done Sudah Terinstall Stah "
 fi
 

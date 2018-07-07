@@ -4,14 +4,12 @@
 #Jangan DiRecode Stah.Ane Coding Sendiri Malem-malem Tanpa Sesosok Pacar
 clear      
  
-blue='\e[0;34'
 cyan='\e[0;36m'
 green='\e[0;34m'
 okegreen='\033[92m'
 lightgreen='\e[1;32m'
 white='\e[1;37m'
-red='\e[1;31m'
-yellow='\e[1;33m'
+kiddes='\e[1;31m'
  
  
    
@@ -23,13 +21,13 @@ trap ctrl_c INT
  
 ctrl_c() {
     clear
-    echo -e $red" (Ctrl + C ) Detected, Trying To Exit ... "
+    echo -e $white" Termia Kasih Stah Sudah Mau Pakai Tools Saya "
     sleep 1
     echo ""
-    echo -e $red" Termia Kasih Telah Persedia Menggunakan Tools Saya Mastah "
+    echo -e $white " Jangan Lupa Mampir Lagi Yah Stah "
     sleep 1
     echo ""
-    echo -e $white" Jangan Lupa Mampir Lagi Stah   "
+    echo -e $white" Dadah Jangan Lupa Kembali Lagi Kesini :)"
     read enter
     exit
 }
@@ -39,6 +37,9 @@ toilet -f standard --gay 'Government'
 echo -e $red "         X--------------------------X"
 echo -e $white "        |       NostalgiaXploit    |"
 echo -e $red "         X--------------------------X"
+echo " #Tools Ini Tidak Boleh DiRecode Kecuali Buat Pembelajaran" | lolcat
+echo " #Tolong Kalau Ada Error Send Contack Lewat Comment Blog Yah :)" | lolcat
+echo " #Semoga Menyenangkan Hari Ini" | lolcat
 sleep 1
 echo -e $red "Author : Siwanna"
 sleep 1
@@ -49,26 +50,46 @@ sleep 1
 echo -e $white "Blogger : cruznos.blogspot.com"
 sleep 1
 echo -e $red "Team : NostalgiaXploit"
-sleep 1
-echo -e $white "Thanks To : Google - Github - Youtube - ./Tsuki - Mrcakil - KamiKazeHaxor - D3W1 4QU4 - Mr.B0c4h - Indonesia Security Lite - Darkness Cyber Team"
+sleep 3
+echo -e $kiddies"====================================================>" 
+echo -e $white "Thanks To : Google - Github - Youtube - ZanTri - Ardi - Indonesia Security Lite - DarknessCyberTeam"
+echo -e $kiddies"====================================================>"  
 echo -e $red "Notice : Kalau Nggak Paham Datang Aja DiWebsite Atau Blog Yang Tertera Diatas | Tools Ini Kupersembahkan Buat Dunia Onepiece"
+echo -e $kiddies"====================================================>"  
 echo -e $white "Menu Tools Government"
+echo -e $kiddies"====================================================>"  
 echo -e $red " 1) Ko-Dork "
+echo -e $kiddies"====================================================>"  
 echo -e $white " 2) admin-finder blazing fast "
+echo -e $kiddies"====================================================>" 
 echo -e $red " 3) Hash Buster "
-echo -e $white " 4) LITESCRIPT "
+echo -e $kiddies"====================================================>" 
+echo -e $white " 4) Dpgen "
+echo -e $kiddies"====================================================>"  
 echo -e $red " 5) Sqlmap "
-echo -e $white " 6) Joomscan "
-echo -e $red " 7) Com_fabrik exploiter "
-echo -e $white " 8) lokomedia exploiter "
-echo -e $red " 9) Dirbuster "
+echo -e $kiddies"====================================================>"  
+echo -e $white " 6) onion-sites-that-dont-suck "
+echo -e $kiddies"====================================================>"  
+echo -e $red " 7) sudo
+echo -e $kiddies"====================================================>"  
+echo -e $white " 8) Dracnmap "
+echo -e $kiddies"====================================================>"  
+echo -e $red " 9) Brutal "
+echo -e $kiddies"====================================================>" 
 echo -e $white " 10) ZoneH "
-echo -e $red " 11) webdav "
+echo -e $kiddies"====================================================>" 
+echo -e $red " 11) TheFatRat "
+echo -e $kiddies"====================================================>"  
 echo -e $white " 12) Brutesploit "
+echo -e $kiddies"====================================================>" 
 echo -e $red " 13) XSStrike "
+echo -e $kiddies"====================================================>" 
 echo -e $white " 14) OpenDoor "
-echo -e $red " 15) Drupalgeddon2 "
+echo -e $kiddies"====================================================>" 
+echo -e $red " 15) BadMod "
+echo -e $kiddies"====================================================>" 
 echo -e $white " 0) Government Exit "
+echo -e $kiddies"====================================================>" 
 read -p "Onepiece@Government ~#" bro
 
 if [ $bro = 1 ] || [ $bro = 1 ]
@@ -117,7 +138,7 @@ fi
 if [ $bro = 4 ] || [ $bro = 04 ]
 then
 clear
-echo " installing LITESCRIPT "
+echo " installing Dpgen "
 sleep 1
 toilet -f standard --gay 'Siwanna'
 apt update && apt upgrade
@@ -125,8 +146,8 @@ apt install python2
 apt install git
 pip2 install mechanize
 pip2 install request
-git clone https://github.com/4L13199/LITESCRIPT.git
-mv LITESCRIPT/ $HOME
+git clone https://github.com/Venen0/dpgen
+mv dpgen/ $HOME
 echo -e $red " Done Sudah Terinstall Stah "
 echo -e $white " Notice : Tools Ini Bekerja Buat Bikin Script Deface "
 fi
@@ -155,62 +176,56 @@ clear
 echo " Installing joomscan "
 sleep 1
 toilet -f standard --gay 'Siwanna'
-apt update && apt upgrade
-apt install perl
-apt install git
-git clone https://github.com/rezasp/joomscan.git
-mv joomscan/ $HOME 
+apt-get update && apt-get upgrade
+apt-get install lynx
+apt-get install w3m
+git clone https://github.com/alecmuffett/onion-sites-that-dont-suck
+mv onion-sites-that-dont-suck/ $HOME 
 echo -e $red " Done Sudah Terinstall Stah "
+echo -e $white " Note : Kalau Nggak Paham Langsung Datang Aja DiGithubnya https://github.com/alecmuffett/onion-sites-that-dont-suck "
 fi
 
 if [ $bro = 7 ] || [ $bro = 07 ]
 then
 clear
-echoo " Installing com_fabrik exploiter "
+echoo " Installing sudo "
 sleep 1
 toilet -f standard --gay "Siwanna"
 apt update && apt upgrade
-apt install wget
-apt install curl
-apt install php
-mkdir com_fabrik
-cd com_fabrik
-wget https://pastebin.com/raw/LDvFvtUD -O com_fabrik.php
-cd 
-mv com_fabrik/ $HOME
+pkg install git ncurses-utils
+git clone https://github.com/st42/termux-sudo.git
+cd termux-sudo
+cat sudo > /data/data/com.termux/files/usr/bin/sudo
+chmod 700 /data/data/com.termux/files/usr/bin/sudo
 echo -e $red " Done Sudah Terinstall Stah "
-echo -e $white " Usage : php com_fabrik.php target.txt "
 fi
 
 if [ $bro = 8 ] || [ $bro = 08 ]
 then
 clear
-echo " Installing lokomedia exploiter "
+echo " Installing Dracnmap "
 sleep 1
 toilet -f standard --gay "Siwanna"
 apt update && apt upgrade
-apt install wget
-apt install php
-mkdir lokomed
-cd lokomed
-https://pastebin.com/raw/sPpJRjCZ -O lokomedia.php
-cd 
+apt install git
+git clone https://github.com/Screetsec/Dracnmap.git
+mv Dracnmap/ $HOME
 echo -e $red " Done Sudah Terinstall Stah "
-echo -e $white " Usage : php lokomedia.php a.txt "
+echo -e $white " Note : echo -e $red " Note : sudo ./Dracnmap.sh or sudo su ./Dracnmap.sh or ./Dracnmap.sh "
 fi
 
 if [ $bro = 9 ] || [ $bro = 09 ]
 then
 clear
-echo " Installing Dirbuster "
+echo " Installing Brutal "
 sleep 1
 toilet -f standard --gay "Siwanna"
 apt update && apt upgrade
-apt install python
 apt install git
-git clone https://github.com/maurosoria/dirsearch.git
-mv dirsearch/ $HOME
+git clone https://github.com/Screetsec/Brutal.git
+mv Brutal/ $HOME
 echo -e $red " Done Sudah Terinstall Stah "
+echo -e $white " Note : sudo ./Brutal.sh or sudo su ./Brutal.sh or ./Brutal.sh "
 fi
 
 if [ $bro = 10 ] || [ $bro = 10 ]
@@ -222,11 +237,8 @@ toilet -f standard --gay "Siwanna"
 apt update && apt upgrade
 apt install php
 apt install wget
-mkdir Zone-H
-cd Zone-H
-wget https://pastebin.com/raw/zNhnyLYL -o ZoneH.php
-cd 
-mv Zone-H/ $HOME
+apt install curl
+curl -LO https://pastebin.com/raw/zNhnyLYL ZoneH.php
 echo -e $red " Done Sudah Terinstall Stah "
 echo -e $white " Notice : Buatlah Sebuah File source list.txt pada memory dan isi dengan url bekas defacemu "
 echo -e $red " Demo : /storage/emulated/0/list.txt "
@@ -235,20 +247,13 @@ fi
 if [ $bro = 11 ] || [ $bro = 11 ]
 then
 clear
-echo " installing wedav "
+echo " installing TheFatRat "
 sleep 1
 toilet -f standard --gay "Siwanna"
 apt update && apt upgrade
-apt install openssl curl
-pkg install libcurl
-apt install python2
-pip2 install urllib3 chardet certifi idna requests
-mkdir webdav
-cd ~/webdav
-wget https://pastebin.com/raw/HnVyQPtR -O webdav.py
-chmod 777 webdav.py
-cd ~/
-mv webdav/ $HOME
+git clone https://github.com/Screetsec/TheFatRat.git
+cd TheFatRat
+chmod +x setup.sh && ./setup.sh
 echo -e $red " Done Sudah Terinstall Stah "
 fi
 
@@ -304,14 +309,14 @@ fi
 if [ $bro = 15 ] || [ $bro = 15 ]
 then
 clear
-echo " installing DRUPAL RCE "
+echo " installing BadMod "
 sleep 1
 toilet -f standard --gay "Siwanna"
 apt update && apt upgrade
-apt install git
-apt install ruby
-git clone https://github.com/dreadlocked/Drupalgeddon2
-mv Drupalgeddon2/ $HOME
+apt install php
+apt install crul
+git clone https://github.com/MrSqar-Ye/BadMod.git
+mv BadMod/ $HOME
 echo -e $red " Done Sudah Terinstall Stah "
 fi
 

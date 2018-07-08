@@ -12,6 +12,8 @@ $ ls
 $ cd Government
 $ ls
 $ chmod +x Variant.sh
+$ chmod +x install.sh
+$ ./install.sh
 $ ./Variant.sh 
 
 Fiture Tools 
